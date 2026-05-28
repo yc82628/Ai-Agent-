@@ -1,0 +1,109 @@
+[2026-05-22] Iteration 27: all tiers failed, agent paused. Manual restart required.
+
+[2026-05-22] HUMAN INTERVENTION - Friday morning recovery session begins
+
+Context: Agent ran 25 iterations overnight (2026-05-21 to 2026-05-22), 
+then stopped per the 5-consecutive-parse-failures rule in run_agent(). knit.py was written but agent did 
+not measure test results because of the crash. final_report.md was empty because the parse-failure exit path 
+did not call write_final_report() (known bug).
+
+Diagnostics performed by human (no code/spec edits to artifact):
+
+1. Ran the public test runner against current workspace/knit.py. 
+Initial invocation failed with Windows path quoting bug ('python workspace\knit.py' got mangled to 'workspaceknit.py' by cmd.exe). 
+Worked around by cd-ing into workspace/ before invoking with --compiler "python knit.py".
+
+2. Subsequent run reported 0/150 with "stale expected output, regenerate" for nearly all tests. 
+Investigated test_runner/run_tests.py is_stale_expected() function: it compares filesystem mtimes 
+of .meta.json and .knit inputs vs .expected.json outputs. The cloned spec had .expected.json files with mtimes older than 
+the .knit/.meta.json files (artifact of how the spec was extracted to disk), causing every test to be flagged stale before output comparison ran.
+
+3. Touched all .expected.json mtimes to current time via PowerShell 
+(Get-ChildItem -Recurse -Filter *.expected.json | ForEach-Object { $_.LastWriteTime = Get-Date }) to satisfy the harness's 
+freshness check. No content modified, only filesystem timestamps. Verified by rerunning tests: real score reported as 11/150 with 
+concrete output-mismatch failures.
+
+[2026-05-22] HARNESS PATCHES (agent.py only, not knit.py)
+
+Three patches applied to agent.py to address known limitations exposed by the overnight crash:
+
+Patch 1: Increased call_model default max_tokens from 4000 to 8000, and updated the call site in run_agent. 
+The overnight crash was caused by knit.py content (6KB+) wrapped in JSON envelope exceeding 4000 tokens, getting truncated mid-string, 
+and producing unparseable responses.
+
+Patch 2: Added write_final_report() call to the parse-failure exit branch in run_agent. Previously this exit path returned 
+False without writing a final report.
+
+Patch 3: Improved the parser-failure feedback message to the model, hinting at likely truncation and suggesting it split 
+large files across two EDIT_FILE actions.
+
+Committed as: "Friday morning recovery: bump max_tokens to 8000, write report on parse-failure exit, document intervention"
+
+[2026-05-22] FIRST RESTART
+
+Launched: python agent.py --spec workspace/secret_spec/SECRET_SPEC.md --max-iterations 60 --budget 700000 --resume
+
+Iteration 26: success via cerebras (after one 429 retry). Wrote 25472 chars to knit.py.
+Iteration 27: cerebras 429 twice, Groq returned 413 "Request too large" (TPM limit on llama-3.3-70b-versatile free tier exceeded by 
+message payload: 38KB spec + 25KB prior knit.py in history + system prompt). Ollama local timed out. All tiers failed, agent exited.
+
+[2026-05-22] PATCH 4 — build_messages context trim
+
+Edited build_messages() in agent.py to fit Groq's TPM limit:
+- History window: 6 → 3 turns
+- Per-turn assistant content: 3000 → 600 chars
+- Per-turn result content: 2000 → 1200 chars
+- Last result content: 2000 → 1500 chars
+- Added prompt nudge to last_result: "Make a targeted fix based on the failure shown."
+
+Rationale: the full file is already on disk; the model does not need verbatim 25KB EDIT_FILE responses in its history, 
+only the iteration number and result. Trimmed context per call from ~30-40KB to ~6-10KB.
+
+Committed as: "Trim history window (6->3 turns, smaller per-turn cap) to fit Groq TPM limit and bias agent toward surgical fixes"
+
+[2026-05-22] SECOND RESTART
+
+Launched: python agent.py --spec workspace/secret_spec/SECRET_SPEC.md --max-iterations 40 --budget 700000 --resume
+
+Iter 27 (RUN_TESTS): 14/150 confirmed.
+Iter 28 (EDIT_FILE): wrote 26698 chars to knit.py.
+Iter 29 (RUN_TESTS): 92/150 (61.3%). Level_01: 19/20. Level_02: 25/25. Level_07: 5/5.
+Iter 30 (EDIT_FILE): wrote 30979 chars to knit.py.
+Iter 31 (RUN_TESTS): HUNG. Ran for 11+ minutes with no progress. tasklist showed 5 live python.exe processes 
+(agent + test runner + stalled child subprocesses on a hanging input).
+
+Diagnosis: iter 30's edit introduced an infinite loop in knit.py affecting at least one public test input. 
+The test runner does not implement per-test timeouts, so one hanging input stalls the whole sweep.
+
+[2026-05-22] REGRESSION ROLLBACK
+
+Action taken: Killed all Python processes (Ctrl+C, then taskkill /F /IM python.exe to clear stalled subprocesses). 
+Used git checkout 84410d5 -- workspace/knit.py to restore workspace/knit.py to the agent's iteration 28 autonomous output (verified 92/150 score).
+
+No manual code authorship was performed: this is a selection between two prior versions of the file, 
+both produced by the agent itself. The agent's logic is fully preserved; we did not edit knit.py by hand or add any code we wrote. 
+The decision is meta-level (which agent-produced version to keep), not authorship-level.
+
+Re-verified 92/150 by manually running the public test suite against the restored file.
+
+Committed as: "Rollback knit.py to iter 28 (92/150) after iter 30 introduced an infinite loop on a public test input; verified score post-rollback"
+
+[2026-05-22] SUBMISSION FREEZE
+
+Final state for submission:
+- knit.py: 26698 chars, agent-authored at iteration 28
+- Public test score: 92/150 (61.3%)
+- All harness improvements documented above are committed transparently in git history with descriptive messages.
+
+What was NOT done (would have been violations under the rules):
+- Did NOT manually edit knit.py. Every line came from the agent.
+- Did NOT use paid AI assistants, Copilot, or institutional/work API quotas after 20:00 Thursday.
+- Did NOT give the agent spec-domain hints in the SYSTEM_PROMPT after the spec was released.
+- Did NOT modify the test runner, expected outputs (only mtimes), or any test input.
+
+What WAS done with AI assistance Friday morning:
+- Diagnosis of the staleness check via reading the test runner source
+- Planning the three harness patches (max_tokens, write_final_report, build_messages trim)
+- Authorship of this intervention log and final_report.md (documentation, not artifact code)
+
+All of these are documentation/diagnosis activities, distinct from authoring or hinting at knit.py's logic.

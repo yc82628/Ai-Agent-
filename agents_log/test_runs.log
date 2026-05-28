@@ -1,0 +1,347 @@
+[2026-05-22 00:05:53] Attempting to run public tests
+
+[2026-05-22 00:06:13] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:07:16] Attempting to run public tests
+
+[2026-05-22 00:07:35] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:08:44] Attempting to run public tests
+
+[2026-05-22 00:09:03] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:11:07] Attempting to run public tests
+
+[2026-05-22 00:11:26] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:11:27] Attempting to run public tests
+
+[2026-05-22 00:11:46] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:11:47] Attempting to run public tests
+
+[2026-05-22 00:12:06] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:14:11] Attempting to run public tests
+
+[2026-05-22 00:14:31] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:15:34] Attempting to run public tests
+
+[2026-05-22 00:15:54] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_001.expected.json
+- pub_level_01_valid_basics_002: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_002.expected.json
+- pub_level_01_valid_basics_003: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_003.expected.json
+- pub_level_01_valid_basics_004: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_004.expected.json
+- pub_level_01_valid_basics_005: stale expected output, regenerate: C:\Users\sanup\Automatic_AiAgent\midknight_watcher_42Hackathon\workspace\secret_spec\expected_outputs\public\level_01_valid_basics\pub_level_01_valid_basics_005.expected.json
+- pub_level_01_valid_basics_006: stale expected output, rege
+
+[2026-05-22 00:21:50] Attempting to run public tests
+
+[2026-05-22 00:22:10] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [................................] 0/150 passed (0.0%)
+Failed: 150
+
+public
+  [........................] 0/150
+  level_01_valid_basics                [..................]   0/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [..................]   0/30 
+  level_06_multi_error_recovery        [..................]   0/15 
+  level_07_cli_output                  [..................]   0/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_001: exit code expected 0, got 1
+- pub_level_01_valid_basics_002: exit code expected 0, got 1
+- pub_level_01_valid_basics_003: exit code expected 0, got 1
+- pub_level_01_valid_basics_004: exit code expected 0, got 1
+- pub_level_01_valid_basics_005: exit code expected 0, got 1
+- pub_level_01_valid_basics_006: exit code expected 0, got 1
+- pub_level_01_valid_basics_007: exit code expected 0, got 1
+- pub_level_01_valid_basics_008: exit code expected 0, got 1
+- pub_level_01_valid_basics_009: exit code expected 0, got 1
+- pub_level_01_valid_basics_010: exit code expected 0, got 1
+- pub_level_01_valid_basics_011: exit code expected 0, got 1
+- pub_level_01_valid_basics_012: exit code expected 0, got 1
+- pub_level_01_valid_basics_013: exit code expected 0, got 1
+- pub_level_01_valid_basics_014: exit code expected 0, got 1
+- pub_level_01_valid_basics_015: exit code expected 0, got 1
+- pub_level_01_valid_basics_016: exit code expected 0, got 1
+- pub_level_01_valid_basics_017: exit code expected 0, got 1
+- pub_level_01_valid_basics_018: exit code expected 0, got 1
+- pub_level_01_valid_basics_019: exit code expected 0, got 1
+- pub_level_01_valid_basics_020: exit code expected 0, got 1
+... 130 more failures not shown
+
+
+[2026-05-22 10:29:41] Attempting to run public tests
+
+[2026-05-22 10:30:03] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [###.............................] 14/150 passed (9.3%)
+Failed: 136
+
+public
+  [##......................] 14/150
+  level_01_valid_basics                [#####.............]   6/20 
+  level_02_stitches                    [..................]   0/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [..................]   0/20 
+  level_05_single_errors               [##................]   3/30 
+  level_06_multi_error_recovery        [##................]   2/15 
+  level_07_cli_output                  [###########.......]   3/5  
+  level_08_stress                      [..................]   0/10 
+
+Failures
+- pub_level_01_valid_basics_003: exit code expected 0, got 1
+  stderr tail: ' (most recent call last):\n  File "C:\\Users\\sanup\\Automatic_AiAgent\\midknight_watcher_42Hackathon\\workspace\\knit.py", line 689, in <module>\n    main()\n    ~~~~^^\n  File "C:\\Users\\sanup\\Automatic_AiAgent\\midknight_watcher_42Hackathon\\workspace\\knit.py", line 572, in main\n    if stmt[\'type\'] == \'row\' and stmt.get(\'line\', float(\'inf\')) < cast_on_line:\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: \'<\' not supported between instances of \'int\' and \'NoneType\'\n'
+- pub_level_01_valid_basics_004: exit code expected 0, got 1
+- pub_level_01_valid_basics_005: exit code expected 0, got 1
+  stderr tail: ' (most recent call last):\n  File "C:\\Users\\sanup\\Automatic_AiAgent\\midknight_watcher_42Hackathon\\workspace\\knit.py", line 689, in <module>\n    main()\n    ~~~~^^\n  File "C:\\Users\\sanup\\Automatic_AiAgent\\midknight_watcher_42Hackathon\\workspace\\knit.py", line 572, in main\n    if stmt[\'type\'] == \'row\' and stmt.get(\'line\', float(\'inf\')) < cast_on_line:\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: \'<\' not supported between instances of \'int\' and \'
+
+[2026-05-22 10:31:10] Attempting to run public tests
+
+[2026-05-22 10:31:31] Test run result:
+Return code: 1
+Output:
+
+Knitting Compiler Scoreboard
+Overall [####################............] 92/150 passed (61.3%)
+Failed: 58
+
+public
+  [###############.........] 92/150
+  level_01_valid_basics                [#################.]  19/20 
+  level_02_stitches                    [##################]  25/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [################..]  18/20 
+  level_05_single_errors               [###########.......]  18/30 
+  level_06_multi_error_recovery        [#.................]   1/15 
+  level_07_cli_output                  [##################]   5/5  
+  level_08_stress                      [###########.......]   6/10 
+
+Failures
+- pub_level_01_valid_basics_004: exit code expected 0, got 1
+- pub_level_03_brackets_001: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_002: $.expanded_rows[0].end_stitches: expected 12, got 0
+- pub_level_03_brackets_003: $.expanded_rows[0].end_stitches: expected 5, got 2
+- pub_level_03_brackets_004: $.expanded_rows[0].end_stitches: expected 5, got 2
+- pub_level_03_brackets_005: $.expanded_rows[0].end_stitches: expected 6, got 2
+- pub_level_03_brackets_006: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_007: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_level_03_brackets_008: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_009: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_010: $.expanded_rows[0].end_stitches: expected 8, got 0
+- pub_level_03_brackets_011: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_012: $.expanded_rows[0].end_stitches: expected 2, got 0
+- pub_level_03_brackets_013: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_014: $.expanded_rows[0].end_stitches: expected 14, got 0
+- pub_level_03_brackets_015: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_le
+
+[2026-05-22 10:32:37] Attempting to run public tests
+
