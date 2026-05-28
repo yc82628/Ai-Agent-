@@ -1,0 +1,30 @@
+Team: Sichuan_X_Paneer
+Program: judging/participant_repos/Sichuan_X_Paneer/sichuan_x_paneer_knit.py
+
+Public score: 92/150
+Public failed: 58
+- level_01_valid_basics: 19/20
+- level_02_stitches: 25/25
+- level_03_brackets: 0/25
+- level_04_row_repeats: 18/20
+- level_05_single_errors: 18/30
+- level_06_multi_error_recovery: 1/15
+- level_07_cli_output: 5/5
+- level_08_stress: 6/10
+
+Hidden score: 30/100
+Hidden failed: 70
+- boundary_stress_valid: 11/15
+- cli_behavior: 5/5
+- compositional_valid_patterns: 1/30
+- edge_policy: 3/10
+- interaction_effect_invalid_patterns: 1/25
+- schema_exactness_valid_outputs: 9/15
+
+Reports:
+- judging/participant_repos/Sichuan_X_Paneer/test_results/public_output.txt
+- judging/participant_repos/Sichuan_X_Paneer/test_results/public_report.json
+- judging/participant_repos/Sichuan_X_Paneer/test_results/hidden_output.txt
+- judging/participant_repos/Sichuan_X_Paneer/test_results/hidden_report.json
+- judging/participant_repos/Sichuan_X_Paneer/test_results/hidden_manifest.json
+- judging/participant_repos/Sichuan_X_Paneer/test_results/hidden_score_summary.txt

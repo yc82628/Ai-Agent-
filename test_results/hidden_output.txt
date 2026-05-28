@@ -1,0 +1,85 @@
+
+Knitting Compiler Scoreboard
+Overall [##########......................] 30/100 passed (30.0%)
+Failed: 70
+
+hidden
+  [#######.................] 30/100
+  boundary_stress_valid                [#############.....]  11/15 
+  cli_behavior                         [##################]   5/5  
+  compositional_valid_patterns         [#.................]   1/30 
+  edge_policy                          [#####.............]   3/10 
+  interaction_effect_invalid_patterns  [#.................]   1/25 
+  schema_exactness_valid_outputs       [###########.......]   9/15 
+
+Failures
+- hid_boundary_stress_valid_004: $.expanded_rows[0].end_stitches: expected 32, got 0
+- hid_boundary_stress_valid_010: $.expanded_rows[0].end_stitches: expected 20, got 0
+- hid_boundary_stress_valid_011: exit code expected 0, got 1
+- hid_boundary_stress_valid_012: $.expanded_rows[0].end_stitches: expected 1000, got 0
+- hid_compositional_valid_patterns_001: $.expanded_rows[1].end_stitches: expected 12, got 0
+- hid_compositional_valid_patterns_002: exit code expected 0, got 1
+- hid_compositional_valid_patterns_003: exit code expected 0, got 1
+- hid_compositional_valid_patterns_004: exit code expected 0, got 1
+- hid_compositional_valid_patterns_005: $.expanded_rows[1].end_stitches: expected 8, got 0
+- hid_compositional_valid_patterns_006: $.expanded_rows[2].end_stitches: expected 10, got 0
+- hid_compositional_valid_patterns_007: exit code expected 0, got 1
+- hid_compositional_valid_patterns_008: exit code expected 0, got 1
+- hid_compositional_valid_patterns_009: exit code expected 0, got 1
+- hid_compositional_valid_patterns_010: exit code expected 0, got 1
+- hid_compositional_valid_patterns_011: exit code expected 0, got 1
+- hid_compositional_valid_patterns_012: $.expanded_rows[1].end_stitches: expected 5, got 0
+- hid_compositional_valid_patterns_013: exit code expected 0, got 1
+- hid_compositional_valid_patterns_014: $.expanded_rows[0].end_stitches: expected 6, got 0
+- hid_compositional_valid_patterns_015: exit code expected 0, got 1
+- hid_compositional_valid_patterns_016: exit code expected 0, got 1
+- hid_compositional_valid_patterns_017: exit code expected 0, got 1
+- hid_compositional_valid_patterns_018: $.expanded_rows[0].end_stitches: expected 9, got 0
+- hid_compositional_valid_patterns_019: exit code expected 0, got 1
+- hid_compositional_valid_patterns_020: exit code expected 0, got 1
+- hid_compositional_valid_patterns_021: $.expanded_rows[0].end_stitches: expected 16, got 0
+- hid_compositional_valid_patterns_022: exit code expected 0, got 1
+- hid_compositional_valid_patterns_024: exit code expected 0, got 1
+- hid_compositional_valid_patterns_025: $.expanded_rows[0].end_stitches: expected 15, got 0
+- hid_compositional_valid_patterns_026: exit code expected 0, got 1
+- hid_compositional_valid_patterns_027: exit code expected 0, got 1
+- hid_compositional_valid_patterns_028: exit code expected 0, got 1
+- hid_compositional_valid_patterns_029: $.expanded_rows[1].end_stitches: expected 6, got 0
+- hid_compositional_valid_patterns_030: exit code expected 0, got 1
+- hid_edge_policy_001: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'
+- hid_edge_policy_002: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'
+- hid_edge_policy_003: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_CAST_ON'
+- hid_edge_policy_004: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_ROW'
+- hid_edge_policy_005: $.errors[1].code: expected 'MALFORMED_REPEAT', got 'INVALID_REPEAT_COUNT'
+- hid_edge_policy_006: $.errors[0].code: expected 'MALFORMED_ROW', got 'STITCH_UNDERFLOW'
+- hid_edge_policy_007: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_001: $.cast_on: expected NoneType, got int
+- hid_interaction_effect_invalid_patterns_002: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_003: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_004: exit code expected 1, got 0
+- hid_interaction_effect_invalid_patterns_005: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_006: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_007: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_008: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_009: exit code expected 1, got 0
+- hid_interaction_effect_invalid_patterns_010: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_011: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_012: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_013: $.errors: expected list length 3, got 2
+- hid_interaction_effect_invalid_patterns_014: $.errors: expected list length 5, got 6
+- hid_interaction_effect_invalid_patterns_015: exit code expected 1, got 0
+- hid_interaction_effect_invalid_patterns_016: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_017: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_018: $.errors: expected list length 3, got 1
+- hid_interaction_effect_invalid_patterns_020: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_021: $.errors: expected list length 5, got 6
+- hid_interaction_effect_invalid_patterns_022: $.errors[1].code: expected 'CAST_ON_OUT_OF_ORDER', got 'MISSING_CAST_ON'
+- hid_interaction_effect_invalid_patterns_023: $.errors: expected list length 2, got 1
+- hid_interaction_effect_invalid_patterns_024: exit code expected 1, got 0
+- hid_interaction_effect_invalid_patterns_025: $.cast_on: expected NoneType, got int
+- hid_schema_exactness_valid_outputs_001: exit code expected 0, got 1
+- hid_schema_exactness_valid_outputs_002: $.expanded_rows[0].end_stitches: expected 6, got 0
+- hid_schema_exactness_valid_outputs_004: $.expanded_rows[1].end_stitches: expected 6, got 0
+- hid_schema_exactness_valid_outputs_011: exit code expected 0, got 1
+- hid_schema_exactness_valid_outputs_012: $.expanded_rows[0].end_stitches: expected 8, got 0
+- hid_schema_exactness_valid_outputs_013: $.expanded_rows[1].end_stitches: expected 6, got 0

@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "suites": {
+    "hidden": {
+      "boundary_stress_valid": {
+        "count": 15
+      },
+      "cli_behavior": {
+        "count": 5
+      },
+      "compositional_valid_patterns": {
+        "count": 30
+      },
+      "edge_policy": {
+        "count": 10
+      },
+      "interaction_effect_invalid_patterns": {
+        "count": 25
+      },
+      "schema_exactness_valid_outputs": {
+        "count": 15
+      }
+    }
+  },
+  "tests": [
+    {
+      "test_id": "hid_boundary_stress_valid_001",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_001.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_002",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_002.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_003",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_003.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_003.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_004",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_004.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_004.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_005",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_005.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_006",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_006.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_006.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_006.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_007",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_007.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_007.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_007.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_008",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_008.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_008.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_008.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_009",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_009.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_009.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_009.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_010",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_010.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_010.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_010.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_011",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_011.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_011.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_011.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_012",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_012.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_012.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_012.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_013",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_013.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_013.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_013.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_014",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_014.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_014.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_014.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_015",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_015.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_015.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/boundary_stress_valid/hid_boundary_stress_valid_015.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_cli_behavior_001",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_001.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_cli_behavior_002",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_002.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_cli_behavior_003",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_003.json",
+      "input_file": null,
+      "expected_exit_code": 2
+    },
+    {
+      "test_id": "hid_cli_behavior_004",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_004.json",
+      "input_file": null,
+      "expected_exit_code": 2
+    },
+    {
+      "test_id": "hid_cli_behavior_005",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/cli_behavior/hid_cli_behavior_005.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_001",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_001.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_002",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_002.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_003",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_003.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_003.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_004",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_004.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_004.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_005",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_005.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_006",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_006.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_006.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_006.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_007",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_007.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_007.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_007.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_008",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_008.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_008.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_008.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_009",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_009.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_009.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_009.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_010",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_010.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_010.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_010.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_011",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_011.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_011.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_011.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_012",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_012.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_012.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_012.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_013",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_013.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_013.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_013.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_014",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_014.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_014.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_014.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_015",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_015.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_015.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_015.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_016",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_016.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_016.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_016.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_017",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_017.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_017.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_017.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_018",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_018.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_018.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_018.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_019",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_019.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_019.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_019.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_020",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_020.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_020.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_020.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_021",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_021.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_021.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_021.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_022",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_022.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_022.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_022.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_023",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_023.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_023.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_023.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_024",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_024.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_024.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_024.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_025",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_025.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_025.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_025.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_026",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_026.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_026.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_026.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_027",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_027.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_027.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_027.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_028",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_028.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_028.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_028.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_029",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_029.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_029.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_029.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_030",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_030.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_030.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/compositional_valid_patterns/hid_compositional_valid_patterns_030.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_edge_policy_001",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_001.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_002",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_002.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_003",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_003.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_003.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_004",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_004.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_004.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_005",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_005.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_006",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_006.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_006.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_006.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_007",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_007.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_007.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_007.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_008",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_008.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_008.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_008.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_009",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_009.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_009.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_009.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_edge_policy_010",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_010.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_010.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/edge_policy/hid_edge_policy_010.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_001",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_001.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_002",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_002.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_003",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_003.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_003.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_004",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_004.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_004.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_005",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_005.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_006",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_006.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_006.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_006.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_007",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_007.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_007.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_007.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_008",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_008.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_008.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_008.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_009",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_009.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_009.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_009.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_010",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_010.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_010.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_010.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_011",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_011.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_011.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_011.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_012",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_012.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_012.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_012.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_013",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_013.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_013.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_013.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_014",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_014.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_014.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_014.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_015",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_015.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_015.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_015.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_016",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_016.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_016.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_016.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_017",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_017.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_017.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_017.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_018",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_018.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_018.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_018.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_019",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_019.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_019.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_019.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_020",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_020.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_020.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_020.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_021",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_021.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_021.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_021.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_022",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_022.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_022.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_022.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_023",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_023.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_023.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_023.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_024",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_024.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_024.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_024.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_025",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_025.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_025.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/interaction_effect_invalid_patterns/hid_interaction_effect_invalid_patterns_025.knit",
+      "expected_exit_code": 1
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_001",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_001.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_001.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_001.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_002",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_002.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_002.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_002.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_003",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_003.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_003.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_003.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_004",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_004.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_004.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_004.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_005",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_005.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_005.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_005.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_006",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_006.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_006.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_006.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_007",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_007.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_007.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_007.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_008",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_008.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_008.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_008.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_009",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_009.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_009.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_009.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_010",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_010.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_010.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_010.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_011",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_011.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_011.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_011.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_012",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_012.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_012.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_012.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_013",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_013.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_013.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_013.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_014",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_014.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_014.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_014.knit",
+      "expected_exit_code": 0
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_015",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "metadata_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_015.json",
+      "_metadata_path": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_015.json",
+      "input_file": "/Users/anastasia/Documents/Documents - Anastasia MMM/repos/42xNeedle/42xNeedle_Hackathon/secret_spec/hidden_tests/schema_exactness_valid_outputs/hid_schema_exactness_valid_outputs_015.knit",
+      "expected_exit_code": 0
+    }
+  ]
+}

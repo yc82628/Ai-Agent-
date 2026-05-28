@@ -1,0 +1,75 @@
+
+Knitting Compiler Scoreboard
+Overall [####################............] 92/150 passed (61.3%)
+Failed: 58
+
+public
+  [###############.........] 92/150
+  level_01_valid_basics                [#################.]  19/20 
+  level_02_stitches                    [##################]  25/25 
+  level_03_brackets                    [..................]   0/25 
+  level_04_row_repeats                 [################..]  18/20 
+  level_05_single_errors               [###########.......]  18/30 
+  level_06_multi_error_recovery        [#.................]   1/15 
+  level_07_cli_output                  [##################]   5/5  
+  level_08_stress                      [###########.......]   6/10 
+
+Failures
+- pub_level_01_valid_basics_004: exit code expected 0, got 1
+- pub_level_03_brackets_001: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_002: $.expanded_rows[0].end_stitches: expected 12, got 0
+- pub_level_03_brackets_003: $.expanded_rows[0].end_stitches: expected 5, got 2
+- pub_level_03_brackets_004: $.expanded_rows[0].end_stitches: expected 5, got 2
+- pub_level_03_brackets_005: $.expanded_rows[0].end_stitches: expected 6, got 2
+- pub_level_03_brackets_006: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_007: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_level_03_brackets_008: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_009: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_010: $.expanded_rows[0].end_stitches: expected 8, got 0
+- pub_level_03_brackets_011: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_012: $.expanded_rows[0].end_stitches: expected 2, got 0
+- pub_level_03_brackets_013: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_03_brackets_014: $.expanded_rows[0].end_stitches: expected 14, got 0
+- pub_level_03_brackets_015: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_level_03_brackets_016: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_level_03_brackets_017: $.expanded_rows[0].end_stitches: expected 6, got 0
+- pub_level_03_brackets_018: $.expanded_rows[0].end_stitches: expected 2, got 0
+- pub_level_03_brackets_019: $.expanded_rows[0].end_stitches: expected 9, got 0
+- pub_level_03_brackets_020: $.expanded_rows[0].end_stitches: expected 7, got 1
+- pub_level_03_brackets_021: exit code expected 0, got 1
+- pub_level_03_brackets_022: exit code expected 0, got 1
+- pub_level_03_brackets_023: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_024: $.expanded_rows[0].end_stitches: expected 10, got 0
+- pub_level_03_brackets_025: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_04_row_repeats_008: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_04_row_repeats_009: $.expanded_rows[0].end_stitches: expected 4, got 0
+- pub_level_05_single_errors_002: $.errors: expected list length 1, got 2
+- pub_level_05_single_errors_005: $.errors: expected list length 1, got 2
+- pub_level_05_single_errors_006: $.cast_on: expected NoneType, got int
+- pub_level_05_single_errors_007: exit code expected 1, got 0
+- pub_level_05_single_errors_012: exit code expected 1, got 0
+- pub_level_05_single_errors_014: exit code expected 1, got 0
+- pub_level_05_single_errors_021: $.errors: expected list length 1, got 2
+- pub_level_05_single_errors_022: $.errors: expected list length 1, got 2
+- pub_level_05_single_errors_023: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'
+- pub_level_05_single_errors_025: exit code expected 1, got 0
+- pub_level_05_single_errors_026: exit code expected 1, got 0
+- pub_level_05_single_errors_029: exit code expected 1, got 0
+- pub_level_06_multi_error_recovery_001: $.errors: expected list length 7, got 5
+- pub_level_06_multi_error_recovery_002: $.errors: expected list length 6, got 3
+- pub_level_06_multi_error_recovery_003: exit code expected 1, got 0
+- pub_level_06_multi_error_recovery_004: exit code expected 1, got 0
+- pub_level_06_multi_error_recovery_005: $.errors: expected list length 2, got 1
+- pub_level_06_multi_error_recovery_006: $.cast_on: expected NoneType, got int
+- pub_level_06_multi_error_recovery_007: $.errors[1].code: expected 'CAST_ON_OUT_OF_ORDER', got 'MISSING_CAST_ON'
+- pub_level_06_multi_error_recovery_008: $.errors: expected list length 2, got 1
+- pub_level_06_multi_error_recovery_009: $.errors: expected list length 2, got 1
+- pub_level_06_multi_error_recovery_010: $.errors: expected list length 3, got 2
+- pub_level_06_multi_error_recovery_011: exit code expected 1, got 0
+- pub_level_06_multi_error_recovery_013: $.cast_on: expected NoneType, got int
+- pub_level_06_multi_error_recovery_014: $.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'
+- pub_level_06_multi_error_recovery_015: exit code expected 1, got 0
+- pub_level_08_stress_002: $.expanded_rows[0].end_stitches: expected 200, got 0
+- pub_level_08_stress_006: $.expanded_rows[0].end_stitches: expected 27, got 3
+- pub_level_08_stress_009: exit code expected 1, got 0
+- pub_level_08_stress_010: exit code expected 1, got 0

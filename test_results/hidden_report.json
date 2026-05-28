@@ -1,0 +1,804 @@
+{
+  "results": [
+    {
+      "test_id": "hid_boundary_stress_valid_001",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_002",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_003",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_004",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 32, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_005",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_006",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_007",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_008",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_009",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_010",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 20, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_011",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_012",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 1000, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_013",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_014",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_boundary_stress_valid_015",
+      "suite": "hidden",
+      "category": "boundary_stress_valid",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_cli_behavior_001",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_cli_behavior_002",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_cli_behavior_003",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "status": "pass",
+      "reason": null,
+      "stderr": "\n"
+    },
+    {
+      "test_id": "hid_cli_behavior_004",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_cli_behavior_005",
+      "suite": "hidden",
+      "category": "cli_behavior",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_001",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 12, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_002",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_003",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_004",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_005",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 8, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_006",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[2].end_stitches: expected 10, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_007",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_008",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_009",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_010",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_011",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_012",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 5, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_013",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_014",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_015",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_016",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_017",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_018",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 9, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_019",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_020",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_021",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 16, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_022",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_023",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_024",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_025",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 15, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_026",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_027",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_028",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_029",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_compositional_valid_patterns_030",
+      "suite": "hidden",
+      "category": "compositional_valid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_001",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_002",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_003",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_CAST_ON'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_004",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_ROW'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_005",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[1].code: expected 'MALFORMED_REPEAT', got 'INVALID_REPEAT_COUNT'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_006",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'MALFORMED_ROW', got 'STITCH_UNDERFLOW'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_007",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_008",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_009",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_edge_policy_010",
+      "suite": "hidden",
+      "category": "edge_policy",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_001",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.cast_on: expected NoneType, got int",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_002",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_003",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_004",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_005",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_006",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_007",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_008",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_009",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_010",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_011",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_012",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_013",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_014",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 5, got 6",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_015",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_016",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_017",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_018",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_019",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_020",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_021",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 5, got 6",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_022",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors[1].code: expected 'CAST_ON_OUT_OF_ORDER', got 'MISSING_CAST_ON'",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_023",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_024",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_interaction_effect_invalid_patterns_025",
+      "suite": "hidden",
+      "category": "interaction_effect_invalid_patterns",
+      "status": "fail",
+      "reason": "$.cast_on: expected NoneType, got int",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_001",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_002",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_003",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_004",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_005",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_006",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_007",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_008",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_009",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_010",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_011",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_012",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 8, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_013",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "fail",
+      "reason": "$.expanded_rows[1].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_014",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "hid_schema_exactness_valid_outputs_015",
+      "suite": "hidden",
+      "category": "schema_exactness_valid_outputs",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    }
+  ]
+}

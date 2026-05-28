@@ -1,0 +1,1204 @@
+{
+  "results": [
+    {
+      "test_id": "pub_level_01_valid_basics_001",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_002",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_003",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_004",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_005",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_006",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_007",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_008",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_009",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_010",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_011",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_012",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_013",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_014",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_015",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_016",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_017",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_018",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_019",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_01_valid_basics_020",
+      "suite": "public",
+      "category": "level_01_valid_basics",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_001",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_002",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_003",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_004",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_005",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_006",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_007",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_008",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_009",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_010",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_011",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_012",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_013",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_014",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_015",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_016",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_017",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_018",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_019",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_020",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_021",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_022",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_023",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_024",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_02_stitches_025",
+      "suite": "public",
+      "category": "level_02_stitches",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_001",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_002",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 12, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_003",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 5, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_004",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 5, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_005",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_006",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_007",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_008",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 10, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_009",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 10, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_010",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 8, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_011",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_012",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 2, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_013",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_014",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 14, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_015",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_016",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_017",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 6, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_018",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 2, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_019",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 9, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_020",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 7, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_021",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_022",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "exit code expected 0, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_023",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 10, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_024",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 10, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_03_brackets_025",
+      "suite": "public",
+      "category": "level_03_brackets",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_001",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_002",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_003",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_004",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_005",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_006",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_007",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_008",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_009",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 4, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_010",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_011",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_012",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_013",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_014",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_015",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_016",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_017",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_018",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_019",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_04_row_repeats_020",
+      "suite": "public",
+      "category": "level_04_row_repeats",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_001",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_002",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.errors: expected list length 1, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_003",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_004",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_005",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.errors: expected list length 1, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_006",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.cast_on: expected NoneType, got int",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_007",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_008",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_009",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_010",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_011",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_012",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_013",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_014",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_015",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_016",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_017",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_018",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_019",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_020",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_021",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.errors: expected list length 1, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_022",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.errors: expected list length 1, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_023",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_024",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_025",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_026",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_027",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_028",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_029",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_05_single_errors_030",
+      "suite": "public",
+      "category": "level_05_single_errors",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_001",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 7, got 5",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_002",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 6, got 3",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_003",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_004",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_005",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_006",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.cast_on: expected NoneType, got int",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_007",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors[1].code: expected 'CAST_ON_OUT_OF_ORDER', got 'MISSING_CAST_ON'",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_008",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_009",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 2, got 1",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_010",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors: expected list length 3, got 2",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_011",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_012",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_013",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.cast_on: expected NoneType, got int",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_014",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "$.errors[0].code: expected 'UNKNOWN_STATEMENT', got 'MALFORMED_PATTERN'",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_06_multi_error_recovery_015",
+      "suite": "public",
+      "category": "level_06_multi_error_recovery",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_07_cli_output_001",
+      "suite": "public",
+      "category": "level_07_cli_output",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_07_cli_output_002",
+      "suite": "public",
+      "category": "level_07_cli_output",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_07_cli_output_003",
+      "suite": "public",
+      "category": "level_07_cli_output",
+      "status": "pass",
+      "reason": null,
+      "stderr": "\n"
+    },
+    {
+      "test_id": "pub_level_07_cli_output_004",
+      "suite": "public",
+      "category": "level_07_cli_output",
+      "status": "pass",
+      "reason": null,
+      "stderr": "\n"
+    },
+    {
+      "test_id": "pub_level_07_cli_output_005",
+      "suite": "public",
+      "category": "level_07_cli_output",
+      "status": "pass",
+      "reason": null,
+      "stderr": "\n"
+    },
+    {
+      "test_id": "pub_level_08_stress_001",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_002",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 200, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_003",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_004",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_005",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_006",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "fail",
+      "reason": "$.expanded_rows[0].end_stitches: expected 27, got 3",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_007",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_008",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "pass",
+      "reason": null,
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_009",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    },
+    {
+      "test_id": "pub_level_08_stress_010",
+      "suite": "public",
+      "category": "level_08_stress",
+      "status": "fail",
+      "reason": "exit code expected 1, got 0",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+30/100 hidden tests passed
+70 failed
+boundary_stress_valid                   11/15
+cli_behavior                            5/5
+compositional_valid_patterns            1/30
+edge_policy                             3/10
+interaction_effect_invalid_patterns     1/25
+schema_exactness_valid_outputs          9/15
