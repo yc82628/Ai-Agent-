@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+.agent-state/
+workspace/secret_spec/
+*.tmp

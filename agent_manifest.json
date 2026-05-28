@@ -1,0 +1,20 @@
+{
+  "primary_model": "qwen-3-235b-a22b-instruct-2507",
+  "provider": "Cerebras (free tier)",
+  "additional_models": [
+    {
+      "model": "llama-3.3-70b-versatile",
+      "provider": "Groq (free tier)",
+      "purpose": "Cross-family failover when Cerebras throttles or returns errors"
+    },
+    {
+      "model": "qwen3.5:9b",
+      "provider": "Ollama (local, on orchestrator machine)",
+      "purpose": "Disaster recovery if all cloud providers become unreachable"
+    }
+  ],
+  "paid_frontier_models_used_after_spec_release": false,
+  "copilot_or_paid_ide_assistant_used_after_spec_release": false,
+  "institutional_or_work_model_quota_used_after_spec_release": false,
+  "notes": "All providers used are free-tier as explicitly listed in organizer clarification (Slack, May 21 morning). Primary inference is Cerebras Qwen3-235B-A22B-Instruct (the strongest coding model available to free-tier Cerebras accounts at the time of this hackathon; Qwen3-Coder 480B was found to require a paid Cerebras plan). Groq Llama 3.3 70B serves as cross-family failover. Local Ollama Qwen3.5 9B provides disaster recovery if both cloud providers become unreachable. No paid model access, no Copilot, no institutional or work quota used at any point after the 20:00 spec release."
+}
